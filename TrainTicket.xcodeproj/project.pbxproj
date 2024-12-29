@@ -7,15 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		192ED5F3CD46A9F5FFA23731 /* Pods_TrainTicket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A43CC2DE60D8D49E7906268 /* Pods_TrainTicket.framework */; };
+		4003CE152D109598007CD18A /* DetailSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4003CE142D109598007CD18A /* DetailSchedule.swift */; };
+		4003CE172D109E6F007CD18A /* RouteData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4003CE162D109E6F007CD18A /* RouteData.swift */; };
+		4003CE192D10A009007CD18A /* StationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4003CE182D10A009007CD18A /* StationData.swift */; };
+		4003CE1B2D10A221007CD18A /* Train.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4003CE1A2D10A221007CD18A /* Train.swift */; };
+		4003CE1D2D10BC36007CD18A /* ChoseTicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4003CE1C2D10BC36007CD18A /* ChoseTicketViewController.swift */; };
+		4003CE1F2D10BD47007CD18A /* TicketCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4003CE1E2D10BD47007CD18A /* TicketCell.xib */; };
+		4003CE212D10BDB2007CD18A /* TicketCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4003CE202D10BDB2007CD18A /* TicketCell.swift */; };
+		4003CE232D11255B007CD18A /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4003CE222D11255B007CD18A /* Price.swift */; };
+		4003CE252D11279E007CD18A /* TicketType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4003CE242D11279E007CD18A /* TicketType.swift */; };
+		4003CE272D112A5F007CD18A /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4003CE262D112A5F007CD18A /* Ticket.swift */; };
 		406BCCBA2CF78FCB0040B5E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406BCCB92CF78FCB0040B5E1 /* AppDelegate.swift */; };
 		406BCCBC2CF78FCB0040B5E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406BCCBB2CF78FCB0040B5E1 /* SceneDelegate.swift */; };
 		406BCCBE2CF78FCB0040B5E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406BCCBD2CF78FCB0040B5E1 /* ViewController.swift */; };
 		406BCCC12CF78FCB0040B5E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 406BCCBF2CF78FCB0040B5E1 /* Main.storyboard */; };
 		406BCCC32CF78FCD0040B5E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 406BCCC22CF78FCD0040B5E1 /* Assets.xcassets */; };
 		406BCCC62CF78FCD0040B5E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 406BCCC42CF78FCD0040B5E1 /* LaunchScreen.storyboard */; };
+		407D34E82D01139B00895F46 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407D34E72D01139B00895F46 /* Route.swift */; };
+		407D34EA2D01182500895F46 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407D34E92D01182500895F46 /* Station.swift */; };
+		408FBDD42CFB2D77000108FB /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408FBDD32CFB2D77000108FB /* UIViewController.swift */; };
+		40AEFB4D2D0F38AA00688EDC /* SearchTicket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AEFB4C2D0F38AA00688EDC /* SearchTicket.swift */; };
+		40AEFB4F2D0F45E100688EDC /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AEFB4E2D0F45E100688EDC /* MyCollectionViewCell.swift */; };
+		40AEFB512D0F472B00688EDC /* WelcomeElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AEFB502D0F472B00688EDC /* WelcomeElement.swift */; };
+		40AEFB572D0F4F6A00688EDC /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40AEFB562D0F4F6A00688EDC /* MyCollectionViewCell.xib */; };
+		40DA9FD52CFD2FC700E24625 /* LoginCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DA9FD42CFD2FC700E24625 /* LoginCredentials.swift */; };
+		40DA9FD72CFD31E500E24625 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DA9FD62CFD31E500E24625 /* Customer.swift */; };
+		40DA9FD92CFD327C00E24625 /* ErrorCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DA9FD82CFD327C00E24625 /* ErrorCommon.swift */; };
+		40DA9FDB2CFD333000E24625 /* CommonUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DA9FDA2CFD333000E24625 /* CommonUserDefaults.swift */; };
+		40DA9FDF2CFD39E600E24625 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40DA9FDE2CFD39E600E24625 /* Home.storyboard */; };
+		40F424F22CFE0E6100DAFC14 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F424F12CFE0E6100DAFC14 /* HomeViewController.swift */; };
+		40F424F42CFE0EB100DAFC14 /* SearchTicketController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F424F32CFE0EB100DAFC14 /* SearchTicketController.swift */; };
+		40F424F62CFE0EC800DAFC14 /* HistoryTicketController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F424F52CFE0EC800DAFC14 /* HistoryTicketController.swift */; };
+		40F424F82CFE0ED400DAFC14 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F424F72CFE0ED400DAFC14 /* InfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A43CC2DE60D8D49E7906268 /* Pods_TrainTicket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrainTicket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4003CE142D109598007CD18A /* DetailSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSchedule.swift; sourceTree = "<group>"; };
+		4003CE162D109E6F007CD18A /* RouteData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteData.swift; sourceTree = "<group>"; };
+		4003CE182D10A009007CD18A /* StationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationData.swift; sourceTree = "<group>"; };
+		4003CE1A2D10A221007CD18A /* Train.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Train.swift; sourceTree = "<group>"; };
+		4003CE1C2D10BC36007CD18A /* ChoseTicketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoseTicketViewController.swift; sourceTree = "<group>"; };
+		4003CE1E2D10BD47007CD18A /* TicketCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TicketCell.xib; sourceTree = "<group>"; };
+		4003CE202D10BDB2007CD18A /* TicketCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketCell.swift; sourceTree = "<group>"; };
+		4003CE222D11255B007CD18A /* Price.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Price.swift; sourceTree = "<group>"; };
+		4003CE242D11279E007CD18A /* TicketType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketType.swift; sourceTree = "<group>"; };
+		4003CE262D112A5F007CD18A /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
 		406BCCB62CF78FCB0040B5E1 /* TrainTicket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrainTicket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		406BCCB92CF78FCB0040B5E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		406BCCBB2CF78FCB0040B5E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +62,24 @@
 		406BCCC22CF78FCD0040B5E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		406BCCC52CF78FCD0040B5E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		406BCCC72CF78FCD0040B5E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		407D34E72D01139B00895F46 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		407D34E92D01182500895F46 /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		408FBDD32CFB2D77000108FB /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		40AEFB4C2D0F38AA00688EDC /* SearchTicket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTicket.swift; sourceTree = "<group>"; };
+		40AEFB4E2D0F45E100688EDC /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		40AEFB502D0F472B00688EDC /* WelcomeElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeElement.swift; sourceTree = "<group>"; };
+		40AEFB562D0F4F6A00688EDC /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
+		40DA9FD42CFD2FC700E24625 /* LoginCredentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCredentials.swift; sourceTree = "<group>"; };
+		40DA9FD62CFD31E500E24625 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		40DA9FD82CFD327C00E24625 /* ErrorCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorCommon.swift; sourceTree = "<group>"; };
+		40DA9FDA2CFD333000E24625 /* CommonUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonUserDefaults.swift; sourceTree = "<group>"; };
+		40DA9FDE2CFD39E600E24625 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		40F424F12CFE0E6100DAFC14 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		40F424F32CFE0EB100DAFC14 /* SearchTicketController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTicketController.swift; sourceTree = "<group>"; };
+		40F424F52CFE0EC800DAFC14 /* HistoryTicketController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTicketController.swift; sourceTree = "<group>"; };
+		40F424F72CFE0ED400DAFC14 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		79E093FDAA90F6948A68092B /* Pods-TrainTicket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrainTicket.debug.xcconfig"; path = "Target Support Files/Pods-TrainTicket/Pods-TrainTicket.debug.xcconfig"; sourceTree = "<group>"; };
+		E424E5C841DBF69F6EFA88C4 /* Pods-TrainTicket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrainTicket.release.xcconfig"; path = "Target Support Files/Pods-TrainTicket/Pods-TrainTicket.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +87,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				192ED5F3CD46A9F5FFA23731 /* Pods_TrainTicket.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AE9DADBFFE8AFD70355986B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A43CC2DE60D8D49E7906268 /* Pods_TrainTicket.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1104AD339337C4893D341C61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79E093FDAA90F6948A68092B /* Pods-TrainTicket.debug.xcconfig */,
+				E424E5C841DBF69F6EFA88C4 /* Pods-TrainTicket.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		406BCCAD2CF78FCB0040B5E1 = {
 			isa = PBXGroup;
 			children = (
 				406BCCB82CF78FCB0040B5E1 /* TrainTicket */,
 				406BCCB72CF78FCB0040B5E1 /* Products */,
+				1104AD339337C4893D341C61 /* Pods */,
+				0AE9DADBFFE8AFD70355986B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +139,32 @@
 				406BCCC22CF78FCD0040B5E1 /* Assets.xcassets */,
 				406BCCC42CF78FCD0040B5E1 /* LaunchScreen.storyboard */,
 				406BCCC72CF78FCD0040B5E1 /* Info.plist */,
+				408FBDD32CFB2D77000108FB /* UIViewController.swift */,
+				40DA9FD42CFD2FC700E24625 /* LoginCredentials.swift */,
+				40DA9FD62CFD31E500E24625 /* Customer.swift */,
+				40DA9FD82CFD327C00E24625 /* ErrorCommon.swift */,
+				40DA9FDA2CFD333000E24625 /* CommonUserDefaults.swift */,
+				40DA9FDE2CFD39E600E24625 /* Home.storyboard */,
+				40F424F12CFE0E6100DAFC14 /* HomeViewController.swift */,
+				40F424F32CFE0EB100DAFC14 /* SearchTicketController.swift */,
+				40F424F52CFE0EC800DAFC14 /* HistoryTicketController.swift */,
+				40F424F72CFE0ED400DAFC14 /* InfoViewController.swift */,
+				407D34E72D01139B00895F46 /* Route.swift */,
+				407D34E92D01182500895F46 /* Station.swift */,
+				40AEFB4C2D0F38AA00688EDC /* SearchTicket.swift */,
+				40AEFB4E2D0F45E100688EDC /* MyCollectionViewCell.swift */,
+				40AEFB502D0F472B00688EDC /* WelcomeElement.swift */,
+				40AEFB562D0F4F6A00688EDC /* MyCollectionViewCell.xib */,
+				4003CE142D109598007CD18A /* DetailSchedule.swift */,
+				4003CE162D109E6F007CD18A /* RouteData.swift */,
+				4003CE182D10A009007CD18A /* StationData.swift */,
+				4003CE1A2D10A221007CD18A /* Train.swift */,
+				4003CE1C2D10BC36007CD18A /* ChoseTicketViewController.swift */,
+				4003CE1E2D10BD47007CD18A /* TicketCell.xib */,
+				4003CE202D10BDB2007CD18A /* TicketCell.swift */,
+				4003CE222D11255B007CD18A /* Price.swift */,
+				4003CE242D11279E007CD18A /* TicketType.swift */,
+				4003CE262D112A5F007CD18A /* Ticket.swift */,
 			);
 			path = TrainTicket;
 			sourceTree = "<group>";
@@ -74,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 406BCCCA2CF78FCD0040B5E1 /* Build configuration list for PBXNativeTarget "TrainTicket" */;
 			buildPhases = (
+				5E1B301FC2C58D924D304242 /* [CP] Check Pods Manifest.lock */,
 				406BCCB22CF78FCB0040B5E1 /* Sources */,
 				406BCCB32CF78FCB0040B5E1 /* Frameworks */,
 				406BCCB42CF78FCB0040B5E1 /* Resources */,
+				679EA39A11B919619D4D102B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,13 +229,58 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40AEFB572D0F4F6A00688EDC /* MyCollectionViewCell.xib in Resources */,
+				4003CE1F2D10BD47007CD18A /* TicketCell.xib in Resources */,
 				406BCCC62CF78FCD0040B5E1 /* LaunchScreen.storyboard in Resources */,
 				406BCCC32CF78FCD0040B5E1 /* Assets.xcassets in Resources */,
 				406BCCC12CF78FCB0040B5E1 /* Main.storyboard in Resources */,
+				40DA9FDF2CFD39E600E24625 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E1B301FC2C58D924D304242 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrainTicket-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		679EA39A11B919619D4D102B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrainTicket/Pods-TrainTicket-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrainTicket/Pods-TrainTicket-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TrainTicket/Pods-TrainTicket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		406BCCB22CF78FCB0040B5E1 /* Sources */ = {
@@ -139,8 +288,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				406BCCBE2CF78FCB0040B5E1 /* ViewController.swift in Sources */,
+				4003CE212D10BDB2007CD18A /* TicketCell.swift in Sources */,
+				4003CE152D109598007CD18A /* DetailSchedule.swift in Sources */,
+				40F424F42CFE0EB100DAFC14 /* SearchTicketController.swift in Sources */,
+				4003CE172D109E6F007CD18A /* RouteData.swift in Sources */,
+				4003CE192D10A009007CD18A /* StationData.swift in Sources */,
+				40AEFB4F2D0F45E100688EDC /* MyCollectionViewCell.swift in Sources */,
+				40F424F62CFE0EC800DAFC14 /* HistoryTicketController.swift in Sources */,
+				4003CE1D2D10BC36007CD18A /* ChoseTicketViewController.swift in Sources */,
+				4003CE252D11279E007CD18A /* TicketType.swift in Sources */,
+				40DA9FD52CFD2FC700E24625 /* LoginCredentials.swift in Sources */,
+				407D34E82D01139B00895F46 /* Route.swift in Sources */,
 				406BCCBA2CF78FCB0040B5E1 /* AppDelegate.swift in Sources */,
+				40AEFB512D0F472B00688EDC /* WelcomeElement.swift in Sources */,
+				40DA9FDB2CFD333000E24625 /* CommonUserDefaults.swift in Sources */,
+				40DA9FD72CFD31E500E24625 /* Customer.swift in Sources */,
+				408FBDD42CFB2D77000108FB /* UIViewController.swift in Sources */,
+				407D34EA2D01182500895F46 /* Station.swift in Sources */,
+				4003CE232D11255B007CD18A /* Price.swift in Sources */,
+				4003CE272D112A5F007CD18A /* Ticket.swift in Sources */,
 				406BCCBC2CF78FCB0040B5E1 /* SceneDelegate.swift in Sources */,
+				4003CE1B2D10A221007CD18A /* Train.swift in Sources */,
+				40F424F22CFE0E6100DAFC14 /* HomeViewController.swift in Sources */,
+				40F424F82CFE0ED400DAFC14 /* InfoViewController.swift in Sources */,
+				40DA9FD92CFD327C00E24625 /* ErrorCommon.swift in Sources */,
+				40AEFB4D2D0F38AA00688EDC /* SearchTicket.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,11 +459,13 @@
 		};
 		406BCCCB2CF78FCD0040B5E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79E093FDAA90F6948A68092B /* Pods-TrainTicket.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TrainTicket/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -299,6 +473,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,11 +489,13 @@
 		};
 		406BCCCC2CF78FCD0040B5E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E424E5C841DBF69F6EFA88C4 /* Pods-TrainTicket.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TrainTicket/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -326,6 +503,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
