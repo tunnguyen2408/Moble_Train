@@ -46,7 +46,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func register(_ sender: Any) {
-        
+        self.performSegue(withIdentifier: "yourSegueIdentifier", sender: self)
     }
     @IBAction func login(_ sender: Any) {
         callAPi(textEmail: edtEmail.text, textPassword: edtPassword.text)

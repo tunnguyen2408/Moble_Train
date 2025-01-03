@@ -18,6 +18,7 @@
 		4003CE232D11255B007CD18A /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4003CE222D11255B007CD18A /* Price.swift */; };
 		4003CE252D11279E007CD18A /* TicketType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4003CE242D11279E007CD18A /* TicketType.swift */; };
 		4003CE272D112A5F007CD18A /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4003CE262D112A5F007CD18A /* Ticket.swift */; };
+		405FA01E2D27983F000C224C /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405FA01D2D27983F000C224C /* RegisterController.swift */; };
 		406BCCBA2CF78FCB0040B5E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406BCCB92CF78FCB0040B5E1 /* AppDelegate.swift */; };
 		406BCCBC2CF78FCB0040B5E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406BCCBB2CF78FCB0040B5E1 /* SceneDelegate.swift */; };
 		406BCCBE2CF78FCB0040B5E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406BCCBD2CF78FCB0040B5E1 /* ViewController.swift */; };
@@ -54,6 +55,7 @@
 		4003CE222D11255B007CD18A /* Price.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Price.swift; sourceTree = "<group>"; };
 		4003CE242D11279E007CD18A /* TicketType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketType.swift; sourceTree = "<group>"; };
 		4003CE262D112A5F007CD18A /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		405FA01D2D27983F000C224C /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
 		406BCCB62CF78FCB0040B5E1 /* TrainTicket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrainTicket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		406BCCB92CF78FCB0040B5E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		406BCCBB2CF78FCB0040B5E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 				4003CE222D11255B007CD18A /* Price.swift */,
 				4003CE242D11279E007CD18A /* TicketType.swift */,
 				4003CE262D112A5F007CD18A /* Ticket.swift */,
+				405FA01D2D27983F000C224C /* RegisterController.swift */,
 			);
 			path = TrainTicket;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				40F424F82CFE0ED400DAFC14 /* InfoViewController.swift in Sources */,
 				40DA9FD92CFD327C00E24625 /* ErrorCommon.swift in Sources */,
 				40AEFB4D2D0F38AA00688EDC /* SearchTicket.swift in Sources */,
+				405FA01E2D27983F000C224C /* RegisterController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
