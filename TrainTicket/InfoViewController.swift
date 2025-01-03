@@ -35,23 +35,39 @@ class InfoViewController: UIViewController {
         }
     }
     func logoutAndRedirectToLogin() {
-        // Xóa thông tin user
-        CommonUserDefaults.shared.remove(forKey: "currentCustomer")
         
-        // Lấy Scene hiện tại
-        guard let scene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
-              let window = scene.delegate as? SceneDelegate else {
-            print("No active scene found.")
-            return
+        DispatchQueue.main.async {
+            let alert = UIAlertController(title: "Đăng xuất", message: "Xác nhận đăng xuất", preferredStyle: .alert)
+            
+            // Thêm nút "OK"
+            let okAction = UIAlertAction(title: "OK", style: .default) { _ in
+                
+                // Xóa thông tin user
+                CommonUserDefaults.shared.remove(forKey: "currentCustomer")
+                
+                // Lấy Scene hiện tại
+                guard let scene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
+                      let window = scene.delegate as? SceneDelegate else {
+                    print("No active scene found.")
+                    return
+                }
+                
+                // Điều hướng tới màn hình Login
+                let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                guard let loginViewController = storyboard.instantiateViewController(withIdentifier: "ViewController") as? ViewController else {
+                    fatalError("LoginViewController not found in Main.storyboard")
+                }
+                
+                window.window?.rootViewController = loginViewController
+                window.window?.makeKeyAndVisible()
+            }
+            
+            let cancelAction = UIAlertAction(title: "Huỷ", style: .default, handler: nil)
+            alert.addAction(okAction)
+            alert.addAction(cancelAction)
+
+            self.present(alert, animated: true)
         }
         
-        // Điều hướng tới màn hình Login
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        guard let loginViewController = storyboard.instantiateViewController(withIdentifier: "ViewController") as? ViewController else {
-            fatalError("LoginViewController not found in Main.storyboard")
-        }
-        
-        window.window?.rootViewController = loginViewController
-        window.window?.makeKeyAndVisible()
     }
 }
