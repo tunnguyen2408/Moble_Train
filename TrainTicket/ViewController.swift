@@ -23,8 +23,8 @@ class ViewController: UIViewController {
         self.hideKeyboardWhenTappedAround()
         initButton()
         initButton1()
-        edtEmail.text = "bob.jones@example.com"
-        edtPassword.text = "bobpass"
+        edtEmail.text = "tannv@gmail.com"
+        edtPassword.text = "Abcd1234"
         
 
     }

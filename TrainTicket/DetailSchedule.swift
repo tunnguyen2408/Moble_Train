@@ -66,7 +66,7 @@ class DetailSchedule: UIViewController {
     
     func fetchRouteDetails(routeId: Int) {
         // Tạo URL
-        guard let url = URL(string: "http://192.168.0.102:8080/routes/\(routeId)") else {
+        guard let url = URL(string: "http://localhost:8080/routes/\(routeId)") else {
             print("Invalid URL")
             return
         }

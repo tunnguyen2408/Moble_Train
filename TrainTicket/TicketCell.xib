@@ -18,26 +18,37 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loại vé:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nHi-Bi-n0f">
-                        <rect key="frame" x="16" y="74" width="58" height="21"/>
+                        <rect key="frame" x="16" y="74" width="350" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="350" id="7aB-ca-69D"/>
+                        </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Giá vé:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dkY-UD-jIr">
-                        <rect key="frame" x="363" y="74" width="52" height="21"/>
+                        <rect key="frame" x="16" y="103" width="350" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="350" id="Esh-R5-Hwv"/>
+                        </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
-                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 <constraints>
-                    <constraint firstAttribute="trailing" secondItem="dkY-UD-jIr" secondAttribute="trailing" constant="16" id="32t-yE-sIS"/>
+                    <constraint firstItem="dkY-UD-jIr" firstAttribute="top" secondItem="nHi-Bi-n0f" secondAttribute="bottom" constant="8" id="04b-Lh-xYe"/>
                     <constraint firstItem="nHi-Bi-n0f" firstAttribute="leading" secondItem="Usl-2W-1QH" secondAttribute="leading" constant="16" id="6Fz-Rz-lGb"/>
+                    <constraint firstAttribute="trailing" secondItem="dkY-UD-jIr" secondAttribute="trailing" id="7TR-NU-Aut"/>
+                    <constraint firstAttribute="trailing" secondItem="nHi-Bi-n0f" secondAttribute="trailing" id="Onb-26-u0M"/>
+                    <constraint firstItem="dkY-UD-jIr" firstAttribute="leading" secondItem="Usl-2W-1QH" secondAttribute="leading" constant="16" id="TGL-Q9-0rJ"/>
                     <constraint firstItem="nHi-Bi-n0f" firstAttribute="centerY" secondItem="Usl-2W-1QH" secondAttribute="centerY" id="flY-ti-nak"/>
-                    <constraint firstItem="dkY-UD-jIr" firstAttribute="centerY" secondItem="Usl-2W-1QH" secondAttribute="centerY" id="g25-nJ-lQs"/>
+                    <constraint firstAttribute="trailing" secondItem="nHi-Bi-n0f" secondAttribute="trailing" id="hwT-yH-HhH"/>
                 </constraints>
             </collectionViewCellContentView>
+            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <size key="customSize" width="431" height="169"/>
             <connections>
                 <outlet property="ticketPrice" destination="dkY-UD-jIr" id="WPB-23-6Gc"/>

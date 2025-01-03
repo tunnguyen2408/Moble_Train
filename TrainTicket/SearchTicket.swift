@@ -91,7 +91,10 @@ class SearchTicket: UIViewController, UICollectionViewDelegate, UICollectionView
         let nib = UINib(nibName: "MyCollectionViewCell", bundle: .main)
         uiCollectionView.register(nib, forCellWithReuseIdentifier: "cell1")
         // Define the URL for the request
-        let urlString = "http://192.168.0.102:8080/schedules/search?startStation=\(stationCodeStart)&endStation=\(stationCodeStop)&startTime=2024-11-18T00:00:00Z"
+        
+        let urlString = "http://localhost:8080/schedules/search?startStation=\(stationCodeStart)&endStation=\(stationCodeStop)&startTime=\(timeStart)"
+        print("Curl \(urlString)")
+
         guard let url = URL(string: urlString) else {
             print("Invalid URL")
             return

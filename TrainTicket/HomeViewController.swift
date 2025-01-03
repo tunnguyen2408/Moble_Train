@@ -187,7 +187,7 @@ class HomeViewController: UIViewController {
     }
     
     private func callGetStations() {
-        guard let url = URL(string: "http://192.168.0.102:8080/stations") else {
+        guard let url = URL(string: "http://localhost:8080/stations") else {
             print("Invalid URL")
             return
         }
@@ -233,7 +233,7 @@ class HomeViewController: UIViewController {
             vc.stationCodeStop = stationCodeStop
             vc.nameStop = edtStop.text ?? ""
             vc.nameStart = edtStart.text ?? ""
-            vc.timeStart = "\(edtTimeStart.text)T00:00:00Z"
+            vc.timeStart = "\(edtTimeStart.text ?? "")T00:00:00Z"
         }
     }
 }

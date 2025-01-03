@@ -13,7 +13,7 @@ struct WelcomeElement: Codable {
     let stationCode: String
     let arrivalTime: Date?
     let departureTime: Date
-    let stopTime: Int
+    let stopTime: Int?
 }
 
 typealias Welcome = [WelcomeElement]

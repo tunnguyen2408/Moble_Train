@@ -121,7 +121,7 @@ class ChoseTicketViewController: UIViewController, UICollectionViewDelegate, UIC
     
     func createTicket(ticket: Ticket, completion: @escaping (Result<String, Error>) -> Void) {
         // URL của API
-        let url = URL(string: "http://192.168.0.102:8080/tickets")!
+        let url = URL(string: "http://localhost:8080/tickets")!
         
         // Chuyển đổi Ticket object thành JSON
         do {
@@ -178,14 +178,14 @@ class ChoseTicketViewController: UIViewController, UICollectionViewDelegate, UIC
         
         cell.ticketPrice.text = "\(intValue).000 VNĐ"
        
-        cell.backgroundColor = UIColor.cyan
+//        cell.backgroundColor = UIColor.cyan
         
         return cell
     }
     
     func fetchTicketType(by id: Int, completion: @escaping (TicketType?, Error?) -> Void) {
         // Tạo URL cho API với tham số id
-        guard let url = URL(string: "http://192.168.0.102:8080/ticket-types/\(id)") else {
+        guard let url = URL(string: "http://localhost:8080/ticket-types/\(id)") else {
             completion(nil, NSError(domain: "InvalidURL", code: -1, userInfo: nil))
             return
         }
@@ -241,7 +241,7 @@ class ChoseTicketViewController: UIViewController, UICollectionViewDelegate, UIC
         isoFormatter.timeZone = TimeZone(secondsFromGMT: 0) // Đảm bảo UTC
         let isoDateString = isoFormatter.string(from: dataSchedule!.departureTime)
         
-        guard let url = URL(string: "http://192.168.0.102:8080/price/schedule?trNo=\(dataSchedule?.trNo ?? 0)&routeId=\(dataSchedule?.routeID ?? 0)&stationCode=\(dataSchedule?.stationCode ?? "")&departureTime=\( isoDateString ?? "")&startLat=\(HomeViewController.stationStart?.latitude ?? 1)&startLon=\(HomeViewController.stationStart?.longitude ?? 1)&endLat=\(HomeViewController.stationStop?.latitude ?? 1)&endLon=\(HomeViewController.stationStop?.longitude ?? 1)") else {
+        guard let url = URL(string: "http://localhost:8080/price/schedule?trNo=\(dataSchedule?.trNo ?? 0)&routeId=\(dataSchedule?.routeID ?? 0)&stationCode=\(dataSchedule?.stationCode ?? "")&departureTime=\( isoDateString ?? "")&startLat=\(HomeViewController.stationStart?.latitude ?? 1)&startLon=\(HomeViewController.stationStart?.longitude ?? 1)&endLat=\(HomeViewController.stationStop?.latitude ?? 1)&endLon=\(HomeViewController.stationStop?.longitude ?? 1)") else {
             print("Invalid URL")
             return
         }

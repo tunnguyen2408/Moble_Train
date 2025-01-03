@@ -177,6 +177,7 @@ class RegisterController: UIViewController {
                             self.dismiss(animated: true)
                         }
                         alert.addAction(okAction)
+                        self.present(alert, animated: true)
                     }
                 } else {
                     // Handle failure (e.g., show error message)
@@ -186,6 +187,8 @@ class RegisterController: UIViewController {
                         // Thêm nút "OK"
                         let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
                         alert.addAction(okAction)
+                        self.present(alert, animated: true)
+
                     }
                 }
             }
