@@ -633,6 +633,7 @@
                         <outlet property="tvDob" destination="aag-2E-B8f" id="dd1-oE-zia"/>
                         <outlet property="tvGender" destination="QcX-dd-Yaw" id="Ydd-Qm-Vki"/>
                         <outlet property="tvMail" destination="Uga-wa-f73" id="652-o2-L4A"/>
+                        <outlet property="tvName" destination="8j4-hl-Xra" id="QTw-bK-NYQ"/>
                         <outlet property="tvPhone" destination="yaz-Ek-CPB" id="Nul-b9-4td"/>
                     </connections>
                 </viewController>
